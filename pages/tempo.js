@@ -15,10 +15,10 @@ function Tempo(props) {
     return {
       props: {
         staticDateString
-      }
-    };
+      },
+      revalidate: 1  // Permite uma entrega cacheada da página ao usuário até que novo request seja feito
+    }
   }
-
 }
 
 export default Tempo;
