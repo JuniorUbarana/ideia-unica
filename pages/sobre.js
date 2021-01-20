@@ -3,8 +3,8 @@ import Link from 'next/link';
 function Sobre() {
   return <div>
     <h1>Hello, world</h1>
+    <p>My first test with NextJS</p>
     <Link href='/'>
-      <p>The About page with NextJS</p>
       <a>Acess Home page</a>
     </Link>
   </div>
